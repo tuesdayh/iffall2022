@@ -1,0 +1,22 @@
+img{
+    max-width: 30%;
+}
+body{
+    background-color:green;
+    text-align: center;
+}
+
+p.name{
+    color:white;
+    font-size: 22px;
+}
+
+p.instruction{
+    color:limegreen;
+    font-style: italic;
+}
+
+h1{
+    font-size: 40px;
+
+}
