@@ -1,0 +1,31 @@
+html{
+font-family:'crimson text',serif;
+
+
+}
+h1{
+    font-size:60pt;
+    text-transform: uppercase;
+    color:#610c04
+    
+}
+body{
+    background-color:#c06f6f ;
+    margin: 7%;
+    text-indent: 50px;
+    font-size: 14pt;
+}
+
+p{
+    color:#610c04;
+}
+h2{
+    color:white;
+    text-transform: uppercase;
+}
+h3{
+    color:#eba7a1;
+    font-size:70%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
