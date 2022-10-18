@@ -1,0 +1,38 @@
+
+
+  body{ width: 800px;}
+
+
+  
+@media(min-width:640px){
+   body{background-color:#eaf6ff;}
+    h1{font-size: 2.5rem;}
+}
+
+@media(min-width:500px){
+    h1{font-size:1.5rem;}  
+}
+
+
+
+ul{
+   display:flex;
+   padding-left:0;
+   flex-wrap:wrap;
+   font-size: 0.8rem;
+   list-style: none;
+}
+li{
+    width:100%;
+}
+
+aside{
+    width:170px;
+    margin:10px;
+
+}
+
+@media(min-width:480px){
+li{width:50%;}
+}
+
