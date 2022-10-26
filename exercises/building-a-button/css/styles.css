@@ -22,6 +22,7 @@ body{
     font-size: 20px;
     padding: 15px 60px 15px 30px;
     border-radius: 10px;
+    transition: transform 0.5s, background-color 0.1s, padding 0.5s, box-shadow 0.1s;
 }
 
 .launch-button:hover{
@@ -41,6 +42,7 @@ body{
     position: absolute;
     top:50%;
     right:40px;
+    transition: transform 0.5s;
 }
 
 .launch-button .rocket i{
@@ -56,7 +58,7 @@ body{
 .launch-button .fa-burn{
     transform: translate(-50%, -15%) rotate(180deg) scale(0.3);
     color:orange;
-    scale: 0.1;
+    transition:transform 0.4s;
 }
 
 .launch-button:hover .fa-burn{
@@ -66,6 +68,7 @@ body{
 
 .launch-button:active .fa-burn{
     transform: translate(-50%, 25%) rotate(180deg) scale(0.8);
+    color:orange;
 }
 
 .launch-button:hover .rocket{
