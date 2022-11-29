@@ -1,0 +1,92 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size:15pt;
+    background-color: #AC2A16;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+    margin:0;
+}
+.background-image{
+    opacity:0.3;
+    position: absolute;
+    left:0;
+    height: 200%;
+   
+}
+.navbar .menu{
+    position:fixed;
+    background-color: black;
+    opacity: .5;
+    display:flex;
+    float:right;
+    margin-top:0.5rem;
+    padding:30px;
+    width:100%
+    
+}
+
+.navbar .menu li{
+    display:block;
+    margin-left: 7em;
+    text-decoration: none;
+    font-size: 20pt;
+    padding-top:10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #AC2A16;
+}
+
+.navbar a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.dnd-logo{
+width:90px;
+padding-top: 10px;
+}
+
+.eddie{
+    width:95%;
+    align-items: center;
+}
+
+.body-text{
+    padding-top: 120px;
+    width:70%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.body-text-history{
+    padding-top: 20px;
+    width:70%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+h1{
+    font-size:40pt;
+}
+
+.character-sheet{
+    padding-left: 20%;
+    padding-right: 20%;
+    width:300px;
+
+}
+
+.oldphoto{
+    width:400px;
+    padding-left: 35%;
+    padding-right: 40%;
+}
